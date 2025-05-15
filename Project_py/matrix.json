@@ -1,0 +1,31 @@
+{
+    "id": "symptom_board",
+    "name": "Symptoms",
+    "cells": [
+        {
+            "text": "Headache",
+            "image": "headache.png",
+            "action": "select"
+        },
+        {
+            "text": "Fever",
+            "image": "fever.png",
+            "action": "select"
+        },
+        {
+            "text": "Cough",
+            "image": "cough.png",
+            "action": "select"
+        },
+        {
+            "text": "Fatigue",
+            "image": "fatigue.png",
+            "action": "select"
+        },
+        {
+            "text": "Nausea",
+            "image": "nausea.png",
+            "action": "select"
+        }
+    ]
+}

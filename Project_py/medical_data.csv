@@ -1,0 +1,1001 @@
+Patient ID,Age,Gender,Symptoms,Predicted Disease,Severity,Confidence Score (%)
+1,69,Male,"Headache, Blurred Vision",Migraine,Severe,70
+2,28,Female,"Headache, Blurred Vision",Migraine,Severe,95
+3,68,Female,"Fever, Cough, Fatigue",Influenza,Mild,89
+4,83,Male,"Runny Nose, Sneezing",Common Cold,Mild,77
+5,9,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,93
+6,26,Male,"Runny Nose, Sneezing",Common Cold,Severe,97
+7,24,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,91
+8,30,Female,"Fever, Cough, Fatigue",Influenza,Mild,83
+9,10,Male,"Fever, Cough, Fatigue",Influenza,Mild,81
+10,29,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,90
+11,12,Male,"Runny Nose, Sneezing",Common Cold,Mild,73
+12,75,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,95
+13,71,Male,"Fever, Cough, Fatigue",Influenza,Moderate,86
+14,73,Female,"Fever, Cough, Fatigue",Influenza,Severe,97
+15,78,Female,"Runny Nose, Sneezing",Common Cold,Severe,90
+16,66,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,72
+17,2,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,86
+18,65,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,79
+19,81,Female,"Headache, Blurred Vision",Migraine,Moderate,80
+20,50,Male,"Headache, Blurred Vision",Migraine,Severe,91
+21,51,Male,"Headache, Blurred Vision",Migraine,Mild,78
+22,1,Male,"Headache, Blurred Vision",Migraine,Severe,77
+23,50,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,88
+24,7,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,71
+25,70,Male,"Fever, Cough, Fatigue",Influenza,Moderate,77
+26,28,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,80
+27,86,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,74
+28,86,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,86
+29,34,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,79
+30,22,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,97
+31,35,Female,"Headache, Blurred Vision",Migraine,Severe,70
+32,28,Female,"Headache, Blurred Vision",Migraine,Moderate,74
+33,35,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,90
+34,40,Male,"Fever, Cough, Fatigue",Influenza,Mild,95
+35,82,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,81
+36,50,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,86
+37,48,Male,"Runny Nose, Sneezing",Common Cold,Moderate,70
+38,87,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,100
+39,36,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,84
+40,3,Male,"Headache, Blurred Vision",Migraine,Severe,83
+41,66,Female,"Headache, Blurred Vision",Migraine,Moderate,77
+42,68,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,92
+43,70,Female,"Runny Nose, Sneezing",Common Cold,Mild,99
+44,84,Female,"Headache, Blurred Vision",Migraine,Severe,90
+45,9,Female,"Runny Nose, Sneezing",Common Cold,Severe,79
+46,34,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,83
+47,66,Male,"Headache, Blurred Vision",Migraine,Mild,71
+48,32,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,93
+49,30,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,74
+50,15,Female,"Fever, Cough, Fatigue",Influenza,Mild,75
+51,40,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,78
+52,4,Male,"Fever, Cough, Fatigue",Influenza,Severe,94
+53,39,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,77
+54,16,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,76
+55,16,Female,"Runny Nose, Sneezing",Common Cold,Moderate,78
+56,44,Male,"Runny Nose, Sneezing",Common Cold,Severe,76
+57,10,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,76
+58,78,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,79
+59,10,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,89
+60,63,Female,"Fever, Cough, Fatigue",Influenza,Moderate,94
+61,46,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,92
+62,74,Male,"Runny Nose, Sneezing",Common Cold,Mild,71
+63,50,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,98
+64,12,Male,"Fever, Cough, Fatigue",Influenza,Moderate,84
+65,28,Male,"Headache, Blurred Vision",Migraine,Mild,84
+66,22,Male,"Fever, Cough, Fatigue",Influenza,Severe,100
+67,71,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,98
+68,21,Female,"Headache, Blurred Vision",Migraine,Severe,91
+69,89,Female,"Runny Nose, Sneezing",Common Cold,Moderate,86
+70,15,Female,"Runny Nose, Sneezing",Common Cold,Mild,99
+71,41,Female,"Runny Nose, Sneezing",Common Cold,Moderate,96
+72,79,Female,"Headache, Blurred Vision",Migraine,Moderate,93
+73,38,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,96
+74,77,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,79
+75,59,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,78
+76,60,Female,"Fever, Cough, Fatigue",Influenza,Mild,79
+77,87,Male,"Fever, Cough, Fatigue",Influenza,Mild,76
+78,8,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,83
+79,76,Male,"Fever, Cough, Fatigue",Influenza,Moderate,79
+80,48,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,70
+81,64,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,100
+82,42,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,77
+83,36,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,72
+84,89,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,90
+85,42,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,86
+86,17,Male,"Fever, Cough, Fatigue",Influenza,Moderate,71
+87,84,Female,"Runny Nose, Sneezing",Common Cold,Mild,71
+88,15,Male,"Runny Nose, Sneezing",Common Cold,Mild,90
+89,79,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,75
+90,72,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,94
+91,20,Male,"Runny Nose, Sneezing",Common Cold,Mild,76
+92,75,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,91
+93,49,Male,"Fever, Cough, Fatigue",Influenza,Severe,91
+94,13,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,87
+95,42,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,92
+96,52,Male,"Headache, Blurred Vision",Migraine,Severe,97
+97,89,Female,"Fever, Cough, Fatigue",Influenza,Mild,95
+98,69,Male,"Fever, Cough, Fatigue",Influenza,Mild,99
+99,31,Female,"Headache, Blurred Vision",Migraine,Moderate,73
+100,25,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,81
+101,84,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,97
+102,18,Male,"Fever, Cough, Fatigue",Influenza,Severe,88
+103,61,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,76
+104,53,Female,"Headache, Blurred Vision",Migraine,Moderate,97
+105,43,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,79
+106,34,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,98
+107,23,Female,"Fever, Cough, Fatigue",Influenza,Severe,100
+108,48,Male,"Headache, Blurred Vision",Migraine,Mild,85
+109,19,Female,"Fever, Cough, Fatigue",Influenza,Moderate,100
+110,64,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,78
+111,83,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,75
+112,78,Male,"Fever, Cough, Fatigue",Influenza,Severe,95
+113,54,Female,"Fever, Cough, Fatigue",Influenza,Severe,86
+114,45,Female,"Fever, Cough, Fatigue",Influenza,Mild,82
+115,6,Male,"Headache, Blurred Vision",Migraine,Moderate,77
+116,39,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,71
+117,31,Male,"Runny Nose, Sneezing",Common Cold,Severe,77
+118,16,Female,"Fever, Cough, Fatigue",Influenza,Mild,82
+119,41,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,70
+120,20,Male,"Fever, Cough, Fatigue",Influenza,Severe,72
+121,67,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,76
+122,55,Female,"Runny Nose, Sneezing",Common Cold,Mild,74
+123,25,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,100
+124,9,Female,"Headache, Blurred Vision",Migraine,Moderate,99
+125,71,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,89
+126,82,Male,"Fever, Cough, Fatigue",Influenza,Moderate,91
+127,59,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,90
+128,18,Female,"Headache, Blurred Vision",Migraine,Severe,94
+129,36,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,85
+130,8,Female,"Fever, Cough, Fatigue",Influenza,Moderate,77
+131,11,Female,"Fever, Cough, Fatigue",Influenza,Mild,96
+132,11,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,92
+133,12,Female,"Fever, Cough, Fatigue",Influenza,Moderate,83
+134,9,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,83
+135,90,Female,"Headache, Blurred Vision",Migraine,Severe,76
+136,12,Male,"Headache, Blurred Vision",Migraine,Mild,79
+137,67,Male,"Headache, Blurred Vision",Migraine,Mild,100
+138,4,Female,"Headache, Blurred Vision",Migraine,Moderate,88
+139,87,Female,"Fever, Cough, Fatigue",Influenza,Moderate,97
+140,81,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,91
+141,51,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,94
+142,28,Male,"Runny Nose, Sneezing",Common Cold,Moderate,88
+143,60,Male,"Fever, Cough, Fatigue",Influenza,Mild,98
+144,22,Male,"Headache, Blurred Vision",Migraine,Mild,75
+145,76,Female,"Fever, Cough, Fatigue",Influenza,Moderate,86
+146,80,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,77
+147,55,Female,"Fever, Cough, Fatigue",Influenza,Severe,93
+148,52,Male,"Fever, Cough, Fatigue",Influenza,Mild,87
+149,18,Female,"Headache, Blurred Vision",Migraine,Moderate,77
+150,22,Male,"Runny Nose, Sneezing",Common Cold,Moderate,88
+151,69,Female,"Runny Nose, Sneezing",Common Cold,Mild,72
+152,69,Female,"Runny Nose, Sneezing",Common Cold,Moderate,85
+153,25,Male,"Fever, Cough, Fatigue",Influenza,Mild,87
+154,46,Female,"Fever, Cough, Fatigue",Influenza,Moderate,78
+155,41,Female,"Headache, Blurred Vision",Migraine,Severe,79
+156,75,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,76
+157,58,Female,"Runny Nose, Sneezing",Common Cold,Mild,91
+158,3,Female,"Fever, Cough, Fatigue",Influenza,Severe,99
+159,81,Female,"Headache, Blurred Vision",Migraine,Mild,74
+160,68,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,74
+161,36,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,81
+162,42,Female,"Runny Nose, Sneezing",Common Cold,Moderate,89
+163,13,Male,"Runny Nose, Sneezing",Common Cold,Moderate,93
+164,12,Female,"Runny Nose, Sneezing",Common Cold,Mild,72
+165,12,Female,"Fever, Cough, Fatigue",Influenza,Moderate,92
+166,68,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,76
+167,74,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,86
+168,22,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,75
+169,83,Male,"Runny Nose, Sneezing",Common Cold,Mild,95
+170,50,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,88
+171,19,Female,"Fever, Cough, Fatigue",Influenza,Mild,97
+172,22,Male,"Fever, Cough, Fatigue",Influenza,Severe,81
+173,15,Male,"Runny Nose, Sneezing",Common Cold,Mild,89
+174,68,Male,"Fever, Cough, Fatigue",Influenza,Severe,74
+175,40,Female,"Runny Nose, Sneezing",Common Cold,Mild,79
+176,67,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,72
+177,14,Female,"Runny Nose, Sneezing",Common Cold,Mild,81
+178,54,Female,"Headache, Blurred Vision",Migraine,Mild,81
+179,62,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,85
+180,72,Female,"Runny Nose, Sneezing",Common Cold,Severe,76
+181,16,Male,"Headache, Blurred Vision",Migraine,Mild,92
+182,23,Male,"Runny Nose, Sneezing",Common Cold,Moderate,78
+183,78,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,77
+184,79,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,90
+185,26,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,72
+186,45,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,94
+187,78,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,96
+188,90,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,91
+189,67,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,79
+190,68,Female,"Fever, Cough, Fatigue",Influenza,Mild,81
+191,27,Female,"Headache, Blurred Vision",Migraine,Moderate,71
+192,59,Female,"Fever, Cough, Fatigue",Influenza,Severe,73
+193,83,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,87
+194,6,Male,"Headache, Blurred Vision",Migraine,Severe,85
+195,27,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,80
+196,52,Male,"Headache, Blurred Vision",Migraine,Mild,80
+197,14,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,73
+198,25,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,95
+199,31,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,99
+200,62,Male,"Fever, Cough, Fatigue",Influenza,Severe,89
+201,12,Female,"Headache, Blurred Vision",Migraine,Mild,79
+202,16,Male,"Runny Nose, Sneezing",Common Cold,Mild,91
+203,12,Female,"Headache, Blurred Vision",Migraine,Moderate,70
+204,15,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,87
+205,13,Female,"Fever, Cough, Fatigue",Influenza,Mild,81
+206,74,Male,"Runny Nose, Sneezing",Common Cold,Moderate,89
+207,31,Male,"Fever, Cough, Fatigue",Influenza,Moderate,93
+208,2,Female,"Fever, Cough, Fatigue",Influenza,Moderate,87
+209,12,Male,"Headache, Blurred Vision",Migraine,Severe,98
+210,53,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,87
+211,44,Female,"Headache, Blurred Vision",Migraine,Severe,90
+212,43,Female,"Fever, Cough, Fatigue",Influenza,Mild,94
+213,77,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,80
+214,6,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,71
+215,69,Male,"Fever, Cough, Fatigue",Influenza,Mild,84
+216,68,Male,"Fever, Cough, Fatigue",Influenza,Severe,84
+217,31,Male,"Headache, Blurred Vision",Migraine,Moderate,75
+218,26,Female,"Fever, Cough, Fatigue",Influenza,Severe,98
+219,85,Male,"Runny Nose, Sneezing",Common Cold,Mild,89
+220,18,Female,"Fever, Cough, Fatigue",Influenza,Moderate,71
+221,51,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,91
+222,89,Female,"Runny Nose, Sneezing",Common Cold,Severe,92
+223,37,Female,"Headache, Blurred Vision",Migraine,Moderate,93
+224,39,Male,"Runny Nose, Sneezing",Common Cold,Severe,96
+225,41,Female,"Fever, Cough, Fatigue",Influenza,Mild,70
+226,55,Female,"Headache, Blurred Vision",Migraine,Severe,87
+227,37,Female,"Fever, Cough, Fatigue",Influenza,Severe,71
+228,64,Male,"Runny Nose, Sneezing",Common Cold,Moderate,91
+229,24,Male,"Fever, Cough, Fatigue",Influenza,Moderate,94
+230,73,Male,"Headache, Blurred Vision",Migraine,Severe,81
+231,45,Female,"Runny Nose, Sneezing",Common Cold,Moderate,81
+232,51,Female,"Fever, Cough, Fatigue",Influenza,Mild,80
+233,43,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,95
+234,59,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,97
+235,57,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,98
+236,18,Female,"Runny Nose, Sneezing",Common Cold,Severe,86
+237,6,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,98
+238,2,Male,"Fever, Cough, Fatigue",Influenza,Severe,77
+239,90,Male,"Headache, Blurred Vision",Migraine,Mild,99
+240,7,Female,"Fever, Cough, Fatigue",Influenza,Moderate,98
+241,21,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,70
+242,89,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,96
+243,54,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,100
+244,46,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,93
+245,79,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,78
+246,39,Female,"Headache, Blurred Vision",Migraine,Moderate,97
+247,26,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,71
+248,53,Female,"Fever, Cough, Fatigue",Influenza,Mild,98
+249,14,Female,"Runny Nose, Sneezing",Common Cold,Mild,85
+250,14,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,81
+251,56,Female,"Headache, Blurred Vision",Migraine,Severe,90
+252,7,Female,"Runny Nose, Sneezing",Common Cold,Mild,77
+253,26,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,85
+254,28,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,94
+255,65,Male,"Fever, Cough, Fatigue",Influenza,Moderate,82
+256,14,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,90
+257,76,Male,"Runny Nose, Sneezing",Common Cold,Severe,77
+258,22,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,93
+259,25,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,70
+260,73,Female,"Headache, Blurred Vision",Migraine,Severe,73
+261,28,Female,"Fever, Cough, Fatigue",Influenza,Mild,72
+262,14,Male,"Runny Nose, Sneezing",Common Cold,Moderate,98
+263,43,Male,"Fever, Cough, Fatigue",Influenza,Moderate,84
+264,8,Female,"Runny Nose, Sneezing",Common Cold,Moderate,88
+265,40,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,82
+266,84,Male,"Fever, Cough, Fatigue",Influenza,Moderate,91
+267,64,Male,"Fever, Cough, Fatigue",Influenza,Moderate,88
+268,80,Male,"Headache, Blurred Vision",Migraine,Mild,94
+269,63,Male,"Runny Nose, Sneezing",Common Cold,Severe,88
+270,64,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,74
+271,63,Male,"Fever, Cough, Fatigue",Influenza,Moderate,100
+272,63,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,97
+273,68,Male,"Headache, Blurred Vision",Migraine,Mild,93
+274,26,Female,"Fever, Cough, Fatigue",Influenza,Moderate,93
+275,16,Female,"Headache, Blurred Vision",Migraine,Severe,74
+276,87,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,98
+277,24,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,93
+278,61,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,72
+279,90,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,83
+280,51,Male,"Runny Nose, Sneezing",Common Cold,Severe,88
+281,8,Male,"Headache, Blurred Vision",Migraine,Mild,95
+282,46,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,100
+283,15,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,90
+284,55,Female,"Headache, Blurred Vision",Migraine,Moderate,91
+285,64,Female,"Runny Nose, Sneezing",Common Cold,Mild,84
+286,52,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,81
+287,27,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,84
+288,24,Male,"Headache, Blurred Vision",Migraine,Mild,93
+289,26,Female,"Runny Nose, Sneezing",Common Cold,Severe,88
+290,24,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,83
+291,89,Male,"Runny Nose, Sneezing",Common Cold,Severe,98
+292,36,Male,"Headache, Blurred Vision",Migraine,Severe,85
+293,89,Male,"Fever, Cough, Fatigue",Influenza,Moderate,93
+294,21,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,84
+295,78,Male,"Runny Nose, Sneezing",Common Cold,Mild,77
+296,62,Female,"Runny Nose, Sneezing",Common Cold,Moderate,85
+297,78,Male,"Runny Nose, Sneezing",Common Cold,Moderate,85
+298,29,Female,"Runny Nose, Sneezing",Common Cold,Moderate,96
+299,34,Male,"Fever, Cough, Fatigue",Influenza,Mild,71
+300,68,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,93
+301,45,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,94
+302,44,Female,"Runny Nose, Sneezing",Common Cold,Severe,72
+303,22,Male,"Runny Nose, Sneezing",Common Cold,Severe,98
+304,54,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,95
+305,20,Male,"Fever, Cough, Fatigue",Influenza,Severe,80
+306,66,Male,"Fever, Cough, Fatigue",Influenza,Moderate,92
+307,13,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,74
+308,26,Male,"Runny Nose, Sneezing",Common Cold,Moderate,98
+309,47,Male,"Headache, Blurred Vision",Migraine,Severe,79
+310,15,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,71
+311,29,Female,"Headache, Blurred Vision",Migraine,Severe,94
+312,36,Female,"Runny Nose, Sneezing",Common Cold,Severe,86
+313,45,Male,"Headache, Blurred Vision",Migraine,Mild,75
+314,16,Male,"Runny Nose, Sneezing",Common Cold,Severe,82
+315,39,Female,"Runny Nose, Sneezing",Common Cold,Moderate,94
+316,63,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,80
+317,22,Male,"Headache, Blurred Vision",Migraine,Moderate,89
+318,45,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,72
+319,54,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,94
+320,28,Female,"Runny Nose, Sneezing",Common Cold,Severe,88
+321,6,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,87
+322,72,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,89
+323,30,Female,"Fever, Cough, Fatigue",Influenza,Moderate,83
+324,58,Male,"Headache, Blurred Vision",Migraine,Mild,82
+325,41,Male,"Fever, Cough, Fatigue",Influenza,Mild,79
+326,74,Female,"Runny Nose, Sneezing",Common Cold,Mild,85
+327,55,Female,"Runny Nose, Sneezing",Common Cold,Mild,75
+328,13,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,78
+329,21,Male,"Runny Nose, Sneezing",Common Cold,Severe,94
+330,11,Male,"Runny Nose, Sneezing",Common Cold,Moderate,95
+331,23,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,100
+332,32,Male,"Runny Nose, Sneezing",Common Cold,Severe,97
+333,76,Male,"Fever, Cough, Fatigue",Influenza,Mild,100
+334,54,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,88
+335,68,Female,"Runny Nose, Sneezing",Common Cold,Mild,100
+336,46,Female,"Headache, Blurred Vision",Migraine,Severe,73
+337,38,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,94
+338,59,Female,"Runny Nose, Sneezing",Common Cold,Severe,88
+339,9,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,98
+340,4,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,84
+341,86,Female,"Runny Nose, Sneezing",Common Cold,Mild,70
+342,60,Male,"Fever, Cough, Fatigue",Influenza,Mild,90
+343,77,Male,"Runny Nose, Sneezing",Common Cold,Mild,100
+344,44,Male,"Fever, Cough, Fatigue",Influenza,Mild,100
+345,64,Male,"Runny Nose, Sneezing",Common Cold,Moderate,90
+346,36,Female,"Headache, Blurred Vision",Migraine,Moderate,77
+347,79,Female,"Runny Nose, Sneezing",Common Cold,Mild,80
+348,88,Female,"Runny Nose, Sneezing",Common Cold,Mild,92
+349,69,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,78
+350,59,Female,"Runny Nose, Sneezing",Common Cold,Severe,71
+351,80,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,71
+352,38,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,91
+353,29,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,95
+354,3,Male,"Fever, Cough, Fatigue",Influenza,Moderate,82
+355,76,Female,"Runny Nose, Sneezing",Common Cold,Mild,80
+356,2,Male,"Headache, Blurred Vision",Migraine,Moderate,82
+357,56,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,74
+358,39,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,84
+359,26,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,75
+360,62,Female,"Headache, Blurred Vision",Migraine,Mild,74
+361,48,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,84
+362,32,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,95
+363,27,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,93
+364,12,Male,"Headache, Blurred Vision",Migraine,Moderate,78
+365,1,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,84
+366,7,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,88
+367,53,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,90
+368,66,Female,"Runny Nose, Sneezing",Common Cold,Moderate,74
+369,38,Male,"Fever, Cough, Fatigue",Influenza,Severe,85
+370,44,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,96
+371,19,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,98
+372,15,Female,"Fever, Cough, Fatigue",Influenza,Severe,97
+373,42,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,76
+374,41,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,71
+375,64,Female,"Runny Nose, Sneezing",Common Cold,Severe,92
+376,4,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,87
+377,24,Male,"Fever, Cough, Fatigue",Influenza,Mild,74
+378,17,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,97
+379,80,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,78
+380,31,Male,"Fever, Cough, Fatigue",Influenza,Severe,87
+381,21,Male,"Headache, Blurred Vision",Migraine,Mild,70
+382,45,Male,"Runny Nose, Sneezing",Common Cold,Moderate,71
+383,25,Female,"Headache, Blurred Vision",Migraine,Mild,72
+384,5,Female,"Runny Nose, Sneezing",Common Cold,Mild,95
+385,26,Female,"Runny Nose, Sneezing",Common Cold,Moderate,80
+386,21,Male,"Runny Nose, Sneezing",Common Cold,Mild,76
+387,28,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,92
+388,5,Male,"Runny Nose, Sneezing",Common Cold,Mild,79
+389,64,Male,"Runny Nose, Sneezing",Common Cold,Mild,82
+390,82,Female,"Runny Nose, Sneezing",Common Cold,Severe,77
+391,74,Female,"Runny Nose, Sneezing",Common Cold,Mild,80
+392,90,Female,"Fever, Cough, Fatigue",Influenza,Mild,82
+393,84,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,96
+394,82,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,95
+395,28,Male,"Fever, Cough, Fatigue",Influenza,Mild,70
+396,70,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,88
+397,45,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,97
+398,23,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,98
+399,32,Female,"Fever, Cough, Fatigue",Influenza,Severe,77
+400,9,Female,"Runny Nose, Sneezing",Common Cold,Moderate,90
+401,75,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,92
+402,62,Female,"Headache, Blurred Vision",Migraine,Moderate,91
+403,32,Female,"Fever, Cough, Fatigue",Influenza,Mild,95
+404,59,Female,"Fever, Cough, Fatigue",Influenza,Mild,73
+405,59,Male,"Fever, Cough, Fatigue",Influenza,Mild,99
+406,47,Female,"Fever, Cough, Fatigue",Influenza,Mild,78
+407,42,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,74
+408,51,Male,"Runny Nose, Sneezing",Common Cold,Severe,72
+409,5,Male,"Runny Nose, Sneezing",Common Cold,Mild,96
+410,51,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,72
+411,79,Male,"Headache, Blurred Vision",Migraine,Severe,88
+412,89,Male,"Headache, Blurred Vision",Migraine,Moderate,82
+413,18,Female,"Fever, Cough, Fatigue",Influenza,Mild,82
+414,51,Male,"Runny Nose, Sneezing",Common Cold,Moderate,77
+415,1,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,78
+416,19,Male,"Fever, Cough, Fatigue",Influenza,Severe,86
+417,37,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,98
+418,58,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,85
+419,41,Male,"Fever, Cough, Fatigue",Influenza,Mild,93
+420,7,Male,"Fever, Cough, Fatigue",Influenza,Moderate,100
+421,40,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,77
+422,6,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,70
+423,30,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,86
+424,1,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,91
+425,27,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,93
+426,13,Female,"Runny Nose, Sneezing",Common Cold,Moderate,71
+427,34,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,94
+428,58,Male,"Fever, Cough, Fatigue",Influenza,Moderate,76
+429,26,Female,"Fever, Cough, Fatigue",Influenza,Moderate,75
+430,82,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,87
+431,22,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,70
+432,68,Male,"Runny Nose, Sneezing",Common Cold,Moderate,80
+433,64,Male,"Fever, Cough, Fatigue",Influenza,Severe,80
+434,21,Male,"Headache, Blurred Vision",Migraine,Severe,100
+435,58,Female,"Runny Nose, Sneezing",Common Cold,Mild,89
+436,51,Male,"Fever, Cough, Fatigue",Influenza,Moderate,88
+437,50,Male,"Headache, Blurred Vision",Migraine,Mild,71
+438,26,Female,"Headache, Blurred Vision",Migraine,Moderate,98
+439,38,Female,"Headache, Blurred Vision",Migraine,Severe,100
+440,86,Male,"Headache, Blurred Vision",Migraine,Severe,81
+441,27,Male,"Fever, Cough, Fatigue",Influenza,Severe,84
+442,40,Male,"Fever, Cough, Fatigue",Influenza,Mild,71
+443,62,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,88
+444,76,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,91
+445,7,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,83
+446,48,Female,"Headache, Blurred Vision",Migraine,Severe,90
+447,10,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,71
+448,66,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,95
+449,38,Female,"Runny Nose, Sneezing",Common Cold,Mild,71
+450,9,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,74
+451,11,Male,"Headache, Blurred Vision",Migraine,Mild,99
+452,33,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,89
+453,57,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,70
+454,51,Female,"Runny Nose, Sneezing",Common Cold,Moderate,91
+455,44,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,79
+456,38,Female,"Fever, Cough, Fatigue",Influenza,Mild,85
+457,89,Male,"Headache, Blurred Vision",Migraine,Severe,85
+458,88,Male,"Fever, Cough, Fatigue",Influenza,Moderate,93
+459,84,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,93
+460,48,Female,"Fever, Cough, Fatigue",Influenza,Moderate,95
+461,3,Male,"Headache, Blurred Vision",Migraine,Moderate,86
+462,45,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,70
+463,61,Male,"Fever, Cough, Fatigue",Influenza,Mild,94
+464,16,Male,"Fever, Cough, Fatigue",Influenza,Mild,94
+465,30,Female,"Headache, Blurred Vision",Migraine,Severe,71
+466,27,Female,"Fever, Cough, Fatigue",Influenza,Severe,79
+467,65,Female,"Headache, Blurred Vision",Migraine,Mild,92
+468,78,Female,"Runny Nose, Sneezing",Common Cold,Mild,85
+469,66,Female,"Runny Nose, Sneezing",Common Cold,Severe,78
+470,86,Female,"Fever, Cough, Fatigue",Influenza,Mild,72
+471,41,Male,"Headache, Blurred Vision",Migraine,Moderate,74
+472,59,Male,"Headache, Blurred Vision",Migraine,Severe,95
+473,76,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,89
+474,60,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,95
+475,66,Female,"Headache, Blurred Vision",Migraine,Mild,91
+476,86,Female,"Headache, Blurred Vision",Migraine,Severe,96
+477,15,Female,"Fever, Cough, Fatigue",Influenza,Moderate,71
+478,22,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,95
+479,65,Female,"Headache, Blurred Vision",Migraine,Mild,80
+480,59,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,78
+481,42,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,84
+482,88,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,72
+483,58,Female,"Fever, Cough, Fatigue",Influenza,Mild,98
+484,2,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,92
+485,49,Female,"Fever, Cough, Fatigue",Influenza,Severe,79
+486,55,Male,"Runny Nose, Sneezing",Common Cold,Mild,78
+487,86,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,77
+488,60,Female,"Runny Nose, Sneezing",Common Cold,Severe,91
+489,26,Female,"Runny Nose, Sneezing",Common Cold,Mild,84
+490,11,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,82
+491,86,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,74
+492,23,Male,"Runny Nose, Sneezing",Common Cold,Mild,71
+493,62,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,94
+494,39,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,70
+495,57,Female,"Runny Nose, Sneezing",Common Cold,Moderate,97
+496,6,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,80
+497,19,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,92
+498,52,Male,"Runny Nose, Sneezing",Common Cold,Moderate,98
+499,14,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,76
+500,78,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,86
+501,37,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,91
+502,19,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,91
+503,83,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,91
+504,50,Male,"Fever, Cough, Fatigue",Influenza,Severe,83
+505,84,Male,"Fever, Cough, Fatigue",Influenza,Moderate,85
+506,37,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,93
+507,17,Female,"Headache, Blurred Vision",Migraine,Severe,99
+508,32,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,81
+509,38,Male,"Headache, Blurred Vision",Migraine,Moderate,71
+510,36,Male,"Headache, Blurred Vision",Migraine,Moderate,82
+511,61,Male,"Fever, Cough, Fatigue",Influenza,Mild,100
+512,18,Male,"Fever, Cough, Fatigue",Influenza,Moderate,85
+513,9,Female,"Runny Nose, Sneezing",Common Cold,Moderate,79
+514,86,Female,"Fever, Cough, Fatigue",Influenza,Severe,98
+515,89,Male,"Runny Nose, Sneezing",Common Cold,Moderate,99
+516,40,Female,"Runny Nose, Sneezing",Common Cold,Moderate,71
+517,1,Female,"Headache, Blurred Vision",Migraine,Moderate,97
+518,47,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,100
+519,70,Male,"Runny Nose, Sneezing",Common Cold,Mild,77
+520,62,Male,"Fever, Cough, Fatigue",Influenza,Severe,85
+521,55,Male,"Runny Nose, Sneezing",Common Cold,Moderate,81
+522,81,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,80
+523,16,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,94
+524,11,Female,"Fever, Cough, Fatigue",Influenza,Moderate,99
+525,79,Male,"Fever, Cough, Fatigue",Influenza,Severe,97
+526,52,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,74
+527,80,Male,"Fever, Cough, Fatigue",Influenza,Moderate,91
+528,38,Female,"Runny Nose, Sneezing",Common Cold,Moderate,73
+529,10,Female,"Headache, Blurred Vision",Migraine,Severe,92
+530,35,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,71
+531,67,Female,"Runny Nose, Sneezing",Common Cold,Severe,70
+532,3,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,91
+533,64,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,84
+534,25,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,90
+535,20,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,74
+536,78,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,88
+537,57,Female,"Fever, Cough, Fatigue",Influenza,Moderate,76
+538,86,Male,"Fever, Cough, Fatigue",Influenza,Mild,98
+539,45,Male,"Fever, Cough, Fatigue",Influenza,Severe,97
+540,85,Female,"Fever, Cough, Fatigue",Influenza,Severe,82
+541,33,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,77
+542,29,Female,"Fever, Cough, Fatigue",Influenza,Moderate,92
+543,79,Male,"Fever, Cough, Fatigue",Influenza,Moderate,98
+544,16,Male,"Runny Nose, Sneezing",Common Cold,Mild,84
+545,76,Male,"Runny Nose, Sneezing",Common Cold,Mild,78
+546,57,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,78
+547,53,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,95
+548,58,Male,"Runny Nose, Sneezing",Common Cold,Severe,94
+549,45,Female,"Headache, Blurred Vision",Migraine,Mild,82
+550,28,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,97
+551,67,Male,"Headache, Blurred Vision",Migraine,Moderate,78
+552,86,Female,"Fever, Cough, Fatigue",Influenza,Severe,71
+553,35,Male,"Headache, Blurred Vision",Migraine,Mild,89
+554,7,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,79
+555,47,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,72
+556,7,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,91
+557,20,Female,"Runny Nose, Sneezing",Common Cold,Severe,74
+558,54,Female,"Headache, Blurred Vision",Migraine,Mild,75
+559,5,Female,"Headache, Blurred Vision",Migraine,Severe,70
+560,28,Male,"Fever, Cough, Fatigue",Influenza,Mild,100
+561,11,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,93
+562,63,Female,"Fever, Cough, Fatigue",Influenza,Severe,77
+563,42,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,92
+564,34,Male,"Headache, Blurred Vision",Migraine,Severe,74
+565,55,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,86
+566,3,Male,"Runny Nose, Sneezing",Common Cold,Moderate,100
+567,81,Female,"Runny Nose, Sneezing",Common Cold,Moderate,82
+568,72,Female,"Headache, Blurred Vision",Migraine,Mild,86
+569,29,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,98
+570,36,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,95
+571,59,Male,"Runny Nose, Sneezing",Common Cold,Severe,86
+572,90,Female,"Headache, Blurred Vision",Migraine,Mild,76
+573,64,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,99
+574,19,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,88
+575,32,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,87
+576,25,Male,"Runny Nose, Sneezing",Common Cold,Severe,73
+577,57,Male,"Fever, Cough, Fatigue",Influenza,Mild,99
+578,58,Male,"Fever, Cough, Fatigue",Influenza,Moderate,86
+579,23,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,78
+580,82,Male,"Headache, Blurred Vision",Migraine,Moderate,81
+581,21,Male,"Headache, Blurred Vision",Migraine,Moderate,77
+582,42,Female,"Runny Nose, Sneezing",Common Cold,Severe,82
+583,46,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,79
+584,61,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,85
+585,24,Male,"Fever, Cough, Fatigue",Influenza,Severe,77
+586,32,Male,"Headache, Blurred Vision",Migraine,Severe,86
+587,27,Male,"Runny Nose, Sneezing",Common Cold,Mild,83
+588,43,Male,"Headache, Blurred Vision",Migraine,Mild,70
+589,77,Female,"Runny Nose, Sneezing",Common Cold,Severe,81
+590,43,Male,"Headache, Blurred Vision",Migraine,Mild,73
+591,4,Female,"Headache, Blurred Vision",Migraine,Severe,91
+592,66,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,84
+593,8,Female,"Fever, Cough, Fatigue",Influenza,Mild,81
+594,81,Male,"Runny Nose, Sneezing",Common Cold,Moderate,92
+595,20,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,87
+596,74,Male,"Runny Nose, Sneezing",Common Cold,Mild,76
+597,35,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,71
+598,74,Female,"Runny Nose, Sneezing",Common Cold,Severe,96
+599,8,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,85
+600,16,Male,"Runny Nose, Sneezing",Common Cold,Mild,85
+601,29,Male,"Headache, Blurred Vision",Migraine,Moderate,86
+602,44,Female,"Fever, Cough, Fatigue",Influenza,Severe,92
+603,73,Male,"Headache, Blurred Vision",Migraine,Moderate,79
+604,59,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,86
+605,57,Male,"Runny Nose, Sneezing",Common Cold,Mild,85
+606,75,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,92
+607,25,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,75
+608,10,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,95
+609,67,Male,"Runny Nose, Sneezing",Common Cold,Mild,89
+610,78,Male,"Fever, Cough, Fatigue",Influenza,Severe,74
+611,79,Female,"Headache, Blurred Vision",Migraine,Mild,89
+612,69,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,87
+613,11,Male,"Headache, Blurred Vision",Migraine,Mild,88
+614,10,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,94
+615,80,Male,"Fever, Cough, Fatigue",Influenza,Severe,78
+616,45,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,93
+617,33,Male,"Headache, Blurred Vision",Migraine,Severe,72
+618,55,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,73
+619,6,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,94
+620,87,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,73
+621,63,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,75
+622,63,Male,"Runny Nose, Sneezing",Common Cold,Severe,89
+623,21,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,90
+624,67,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,100
+625,85,Male,"Fever, Cough, Fatigue",Influenza,Mild,79
+626,63,Male,"Headache, Blurred Vision",Migraine,Moderate,88
+627,79,Female,"Runny Nose, Sneezing",Common Cold,Mild,98
+628,69,Female,"Fever, Cough, Fatigue",Influenza,Severe,85
+629,58,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,90
+630,9,Male,"Fever, Cough, Fatigue",Influenza,Severe,96
+631,39,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,100
+632,18,Female,"Fever, Cough, Fatigue",Influenza,Moderate,86
+633,34,Male,"Fever, Cough, Fatigue",Influenza,Moderate,93
+634,23,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,99
+635,83,Male,"Runny Nose, Sneezing",Common Cold,Mild,70
+636,35,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,84
+637,83,Male,"Runny Nose, Sneezing",Common Cold,Moderate,95
+638,27,Male,"Fever, Cough, Fatigue",Influenza,Mild,72
+639,29,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,91
+640,62,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,95
+641,54,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,100
+642,22,Female,"Headache, Blurred Vision",Migraine,Mild,84
+643,17,Male,"Fever, Cough, Fatigue",Influenza,Moderate,93
+644,33,Female,"Fever, Cough, Fatigue",Influenza,Mild,89
+645,69,Male,"Fever, Cough, Fatigue",Influenza,Severe,76
+646,67,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,88
+647,27,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,87
+648,56,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,78
+649,59,Female,"Fever, Cough, Fatigue",Influenza,Moderate,81
+650,53,Female,"Fever, Cough, Fatigue",Influenza,Mild,85
+651,30,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,78
+652,9,Male,"Headache, Blurred Vision",Migraine,Mild,88
+653,77,Male,"Fever, Cough, Fatigue",Influenza,Mild,73
+654,52,Male,"Headache, Blurred Vision",Migraine,Severe,79
+655,7,Female,"Runny Nose, Sneezing",Common Cold,Severe,70
+656,16,Male,"Fever, Cough, Fatigue",Influenza,Moderate,74
+657,33,Female,"Runny Nose, Sneezing",Common Cold,Severe,85
+658,9,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,76
+659,89,Female,"Headache, Blurred Vision",Migraine,Mild,80
+660,83,Male,"Headache, Blurred Vision",Migraine,Severe,84
+661,23,Female,"Runny Nose, Sneezing",Common Cold,Moderate,92
+662,5,Female,"Fever, Cough, Fatigue",Influenza,Mild,91
+663,4,Male,"Headache, Blurred Vision",Migraine,Severe,70
+664,90,Male,"Runny Nose, Sneezing",Common Cold,Severe,70
+665,40,Male,"Fever, Cough, Fatigue",Influenza,Mild,89
+666,52,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,92
+667,7,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,96
+668,13,Female,"Headache, Blurred Vision",Migraine,Mild,82
+669,88,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,78
+670,13,Male,"Runny Nose, Sneezing",Common Cold,Severe,99
+671,6,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,76
+672,52,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,93
+673,24,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,90
+674,30,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,86
+675,49,Male,"Runny Nose, Sneezing",Common Cold,Mild,76
+676,14,Male,"Runny Nose, Sneezing",Common Cold,Mild,75
+677,46,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,96
+678,2,Female,"Fever, Cough, Fatigue",Influenza,Mild,99
+679,7,Male,"Headache, Blurred Vision",Migraine,Moderate,81
+680,54,Female,"Fever, Cough, Fatigue",Influenza,Severe,72
+681,65,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,86
+682,21,Female,"Runny Nose, Sneezing",Common Cold,Mild,79
+683,55,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,100
+684,65,Male,"Fever, Cough, Fatigue",Influenza,Mild,73
+685,78,Female,"Headache, Blurred Vision",Migraine,Mild,72
+686,85,Male,"Fever, Cough, Fatigue",Influenza,Severe,97
+687,74,Female,"Fever, Cough, Fatigue",Influenza,Mild,94
+688,86,Female,"Fever, Cough, Fatigue",Influenza,Severe,90
+689,2,Male,"Runny Nose, Sneezing",Common Cold,Severe,80
+690,51,Male,"Fever, Cough, Fatigue",Influenza,Mild,77
+691,85,Male,"Headache, Blurred Vision",Migraine,Moderate,94
+692,83,Male,"Fever, Cough, Fatigue",Influenza,Severe,86
+693,66,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,78
+694,53,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,80
+695,6,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,80
+696,12,Female,"Headache, Blurred Vision",Migraine,Severe,99
+697,33,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,91
+698,23,Female,"Headache, Blurred Vision",Migraine,Mild,93
+699,68,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,71
+700,56,Male,"Fever, Cough, Fatigue",Influenza,Moderate,82
+701,88,Female,"Fever, Cough, Fatigue",Influenza,Mild,87
+702,68,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,76
+703,83,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,91
+704,44,Male,"Headache, Blurred Vision",Migraine,Severe,92
+705,9,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,79
+706,53,Male,"Fever, Cough, Fatigue",Influenza,Severe,95
+707,1,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,84
+708,11,Female,"Headache, Blurred Vision",Migraine,Severe,91
+709,9,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,73
+710,71,Male,"Fever, Cough, Fatigue",Influenza,Moderate,90
+711,77,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,86
+712,8,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,71
+713,26,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,90
+714,53,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,96
+715,46,Female,"Fever, Cough, Fatigue",Influenza,Severe,87
+716,19,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,73
+717,72,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,89
+718,86,Female,"Headache, Blurred Vision",Migraine,Mild,70
+719,11,Female,"Runny Nose, Sneezing",Common Cold,Severe,78
+720,21,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,84
+721,56,Male,"Fever, Cough, Fatigue",Influenza,Mild,86
+722,25,Male,"Headache, Blurred Vision",Migraine,Severe,92
+723,14,Female,"Runny Nose, Sneezing",Common Cold,Mild,90
+724,75,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,93
+725,12,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,90
+726,38,Male,"Runny Nose, Sneezing",Common Cold,Moderate,91
+727,40,Female,"Runny Nose, Sneezing",Common Cold,Moderate,84
+728,83,Male,"Fever, Cough, Fatigue",Influenza,Moderate,79
+729,24,Male,"Headache, Blurred Vision",Migraine,Severe,91
+730,90,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,82
+731,1,Female,"Fever, Cough, Fatigue",Influenza,Moderate,100
+732,8,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,76
+733,84,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,81
+734,35,Female,"Runny Nose, Sneezing",Common Cold,Moderate,75
+735,35,Male,"Runny Nose, Sneezing",Common Cold,Severe,89
+736,30,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,75
+737,29,Female,"Fever, Cough, Fatigue",Influenza,Severe,96
+738,34,Male,"Fever, Cough, Fatigue",Influenza,Severe,95
+739,45,Male,"Headache, Blurred Vision",Migraine,Moderate,84
+740,32,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,92
+741,46,Male,"Runny Nose, Sneezing",Common Cold,Moderate,99
+742,41,Male,"Fever, Cough, Fatigue",Influenza,Mild,72
+743,43,Female,"Headache, Blurred Vision",Migraine,Severe,86
+744,28,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,78
+745,87,Male,"Headache, Blurred Vision",Migraine,Severe,85
+746,35,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,93
+747,85,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,86
+748,76,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,79
+749,61,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,93
+750,57,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,74
+751,37,Female,"Headache, Blurred Vision",Migraine,Moderate,99
+752,67,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,90
+753,78,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,99
+754,28,Male,"Fever, Cough, Fatigue",Influenza,Moderate,78
+755,59,Female,"Fever, Cough, Fatigue",Influenza,Mild,87
+756,78,Male,"Headache, Blurred Vision",Migraine,Severe,81
+757,60,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,83
+758,81,Female,"Headache, Blurred Vision",Migraine,Moderate,81
+759,11,Male,"Runny Nose, Sneezing",Common Cold,Mild,97
+760,43,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,77
+761,55,Female,"Fever, Cough, Fatigue",Influenza,Mild,94
+762,14,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,97
+763,81,Male,"Fever, Cough, Fatigue",Influenza,Mild,84
+764,24,Female,"Fever, Cough, Fatigue",Influenza,Severe,80
+765,62,Male,"Headache, Blurred Vision",Migraine,Moderate,77
+766,49,Female,"Fever, Cough, Fatigue",Influenza,Moderate,80
+767,20,Female,"Fever, Cough, Fatigue",Influenza,Mild,85
+768,72,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,91
+769,17,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,82
+770,61,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,74
+771,9,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,84
+772,22,Male,"Fever, Cough, Fatigue",Influenza,Mild,73
+773,26,Female,"Runny Nose, Sneezing",Common Cold,Severe,89
+774,15,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,93
+775,85,Male,"Fever, Cough, Fatigue",Influenza,Severe,91
+776,73,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,86
+777,34,Male,"Headache, Blurred Vision",Migraine,Mild,76
+778,40,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,86
+779,44,Male,"Runny Nose, Sneezing",Common Cold,Severe,91
+780,90,Male,"Fever, Cough, Fatigue",Influenza,Severe,77
+781,86,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,92
+782,21,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,94
+783,60,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,97
+784,10,Male,"Runny Nose, Sneezing",Common Cold,Moderate,81
+785,81,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,90
+786,69,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,70
+787,26,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,70
+788,56,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,84
+789,4,Female,"Headache, Blurred Vision",Migraine,Mild,85
+790,22,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,86
+791,7,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,92
+792,22,Male,"Fever, Cough, Fatigue",Influenza,Mild,77
+793,90,Male,"Fever, Cough, Fatigue",Influenza,Moderate,92
+794,60,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,95
+795,67,Male,"Headache, Blurred Vision",Migraine,Severe,75
+796,39,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,83
+797,48,Female,"Runny Nose, Sneezing",Common Cold,Moderate,95
+798,53,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,77
+799,50,Female,"Headache, Blurred Vision",Migraine,Moderate,75
+800,18,Male,"Fever, Cough, Fatigue",Influenza,Moderate,77
+801,24,Male,"Headache, Blurred Vision",Migraine,Mild,77
+802,88,Female,"Fever, Cough, Fatigue",Influenza,Severe,75
+803,79,Male,"Fever, Cough, Fatigue",Influenza,Severe,91
+804,17,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,80
+805,52,Female,"Runny Nose, Sneezing",Common Cold,Moderate,83
+806,62,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,91
+807,38,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,79
+808,40,Male,"Headache, Blurred Vision",Migraine,Moderate,76
+809,38,Female,"Runny Nose, Sneezing",Common Cold,Mild,87
+810,36,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,81
+811,29,Female,"Fever, Cough, Fatigue",Influenza,Moderate,78
+812,29,Female,"Headache, Blurred Vision",Migraine,Moderate,97
+813,86,Male,"Headache, Blurred Vision",Migraine,Moderate,84
+814,81,Female,"Runny Nose, Sneezing",Common Cold,Mild,87
+815,77,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,70
+816,59,Female,"Fever, Cough, Fatigue",Influenza,Severe,88
+817,73,Female,"Headache, Blurred Vision",Migraine,Severe,72
+818,55,Female,"Headache, Blurred Vision",Migraine,Moderate,96
+819,64,Male,"Headache, Blurred Vision",Migraine,Severe,84
+820,15,Male,"Headache, Blurred Vision",Migraine,Mild,100
+821,62,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,100
+822,40,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,95
+823,69,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,75
+824,37,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,86
+825,70,Male,"Runny Nose, Sneezing",Common Cold,Mild,95
+826,35,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,90
+827,68,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,71
+828,20,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,98
+829,66,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,97
+830,70,Female,"Runny Nose, Sneezing",Common Cold,Mild,89
+831,76,Male,"Fever, Cough, Fatigue",Influenza,Moderate,92
+832,54,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,70
+833,56,Male,"Headache, Blurred Vision",Migraine,Mild,99
+834,14,Female,"Runny Nose, Sneezing",Common Cold,Moderate,72
+835,62,Female,"Headache, Blurred Vision",Migraine,Severe,75
+836,49,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,74
+837,22,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,85
+838,26,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,94
+839,84,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,94
+840,89,Female,"Runny Nose, Sneezing",Common Cold,Severe,80
+841,42,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,95
+842,1,Female,"Headache, Blurred Vision",Migraine,Mild,87
+843,68,Female,"Fever, Cough, Fatigue",Influenza,Moderate,91
+844,27,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,98
+845,42,Female,"Runny Nose, Sneezing",Common Cold,Moderate,79
+846,82,Male,"Runny Nose, Sneezing",Common Cold,Mild,97
+847,66,Female,"Fever, Cough, Fatigue",Influenza,Moderate,74
+848,31,Female,"Headache, Blurred Vision",Migraine,Mild,71
+849,51,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,89
+850,43,Male,"Runny Nose, Sneezing",Common Cold,Moderate,89
+851,40,Male,"Fever, Cough, Fatigue",Influenza,Mild,83
+852,48,Female,"Headache, Blurred Vision",Migraine,Severe,82
+853,59,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,80
+854,87,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,78
+855,40,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,92
+856,2,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,99
+857,21,Female,"Fever, Cough, Fatigue",Influenza,Severe,85
+858,5,Male,"Fever, Cough, Fatigue",Influenza,Moderate,94
+859,65,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,88
+860,52,Female,"Headache, Blurred Vision",Migraine,Mild,88
+861,83,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,80
+862,90,Female,"Fever, Cough, Fatigue",Influenza,Mild,76
+863,47,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,77
+864,70,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,97
+865,65,Female,"Fever, Cough, Fatigue",Influenza,Moderate,99
+866,56,Female,"Runny Nose, Sneezing",Common Cold,Severe,86
+867,37,Female,"Fever, Cough, Fatigue",Influenza,Severe,98
+868,86,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,86
+869,3,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,88
+870,2,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,89
+871,19,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,78
+872,37,Female,"Fever, Cough, Fatigue",Influenza,Severe,70
+873,53,Female,"Runny Nose, Sneezing",Common Cold,Severe,75
+874,63,Male,"Fever, Cough, Fatigue",Influenza,Moderate,77
+875,43,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,86
+876,53,Male,"Headache, Blurred Vision",Migraine,Severe,93
+877,41,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,92
+878,22,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,72
+879,84,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,94
+880,46,Female,"Runny Nose, Sneezing",Common Cold,Mild,84
+881,77,Male,"Fever, Cough, Fatigue",Influenza,Severe,97
+882,42,Female,"Headache, Blurred Vision",Migraine,Mild,79
+883,28,Female,"Fever, Cough, Fatigue",Influenza,Mild,91
+884,90,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,73
+885,75,Male,"Fever, Cough, Fatigue",Influenza,Moderate,89
+886,2,Female,"Fever, Cough, Fatigue",Influenza,Severe,94
+887,85,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,82
+888,54,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,77
+889,59,Male,"Fever, Cough, Fatigue",Influenza,Mild,71
+890,67,Male,"Fever, Cough, Fatigue",Influenza,Moderate,92
+891,52,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,85
+892,44,Female,"Runny Nose, Sneezing",Common Cold,Mild,97
+893,74,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,96
+894,62,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,72
+895,64,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,83
+896,68,Female,"Headache, Blurred Vision",Migraine,Moderate,92
+897,86,Female,"Fever, Cough, Fatigue",Influenza,Mild,85
+898,68,Female,"Runny Nose, Sneezing",Common Cold,Mild,85
+899,69,Male,"Headache, Blurred Vision",Migraine,Moderate,98
+900,40,Male,"Fever, Cough, Fatigue",Influenza,Mild,76
+901,34,Male,"Runny Nose, Sneezing",Common Cold,Mild,100
+902,88,Female,"Fever, Cough, Fatigue",Influenza,Severe,85
+903,13,Male,"Fever, Cough, Fatigue",Influenza,Mild,92
+904,72,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,72
+905,5,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,80
+906,29,Female,"Fever, Cough, Fatigue",Influenza,Severe,75
+907,4,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,86
+908,88,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,94
+909,32,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,97
+910,24,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,75
+911,22,Female,"Headache, Blurred Vision",Migraine,Severe,93
+912,64,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,83
+913,20,Female,"Headache, Blurred Vision",Migraine,Mild,94
+914,54,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,99
+915,23,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,94
+916,19,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,97
+917,55,Female,"Fever, Cough, Fatigue",Influenza,Mild,97
+918,71,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,100
+919,42,Male,"Runny Nose, Sneezing",Common Cold,Mild,91
+920,30,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,83
+921,1,Female,"Fever, Cough, Fatigue",Influenza,Moderate,84
+922,17,Female,"Fever, Cough, Fatigue",Influenza,Severe,73
+923,34,Male,"Runny Nose, Sneezing",Common Cold,Severe,78
+924,61,Female,"Headache, Blurred Vision",Migraine,Mild,77
+925,13,Female,"Headache, Blurred Vision",Migraine,Severe,92
+926,8,Male,"Fever, Cough, Fatigue",Influenza,Moderate,83
+927,81,Male,"Headache, Blurred Vision",Migraine,Moderate,95
+928,76,Male,"Headache, Blurred Vision",Migraine,Moderate,77
+929,48,Female,"Chest Pain, Breathlessness",Heart Attack,Severe,93
+930,73,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,78
+931,9,Male,"Headache, Blurred Vision",Migraine,Mild,94
+932,11,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,89
+933,67,Female,"Headache, Blurred Vision",Migraine,Severe,82
+934,56,Female,"Headache, Blurred Vision",Migraine,Severe,95
+935,54,Female,"Headache, Blurred Vision",Migraine,Moderate,91
+936,43,Female,"Runny Nose, Sneezing",Common Cold,Mild,93
+937,34,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,100
+938,19,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,93
+939,57,Female,"Headache, Blurred Vision",Migraine,Moderate,100
+940,71,Male,"Fever, Cough, Fatigue",Influenza,Mild,82
+941,87,Female,"Fever, Cough, Fatigue",Influenza,Moderate,90
+942,39,Male,"Fever, Cough, Fatigue",Influenza,Severe,89
+943,12,Male,"Runny Nose, Sneezing",Common Cold,Moderate,81
+944,37,Male,"Headache, Blurred Vision",Migraine,Mild,76
+945,70,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,94
+946,60,Male,"Headache, Blurred Vision",Migraine,Severe,83
+947,89,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,73
+948,86,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,90
+949,29,Female,"Headache, Blurred Vision",Migraine,Moderate,86
+950,76,Female,"Headache, Blurred Vision",Migraine,Severe,81
+951,19,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,76
+952,51,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,89
+953,74,Female,"Fever, Cough, Fatigue",Influenza,Mild,73
+954,65,Male,"Runny Nose, Sneezing",Common Cold,Moderate,73
+955,51,Female,"Headache, Blurred Vision",Migraine,Severe,89
+956,84,Female,"Fever, Cough, Fatigue",Influenza,Mild,74
+957,24,Female,"Runny Nose, Sneezing",Common Cold,Severe,94
+958,15,Female,"Runny Nose, Sneezing",Common Cold,Severe,97
+959,26,Female,"Abdominal Pain, Vomiting",Food Poisoning,Mild,76
+960,8,Male,"Fever, Cough, Fatigue",Influenza,Moderate,71
+961,20,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,81
+962,77,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,84
+963,60,Male,"Chest Pain, Breathlessness",Heart Attack,Mild,72
+964,14,Female,"Chest Pain, Breathlessness",Heart Attack,Mild,82
+965,27,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,99
+966,6,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,85
+967,75,Male,"Fever, Cough, Fatigue",Influenza,Mild,96
+968,69,Male,"Headache, Blurred Vision",Migraine,Moderate,76
+969,49,Female,"Headache, Blurred Vision",Migraine,Severe,79
+970,78,Male,"Abdominal Pain, Vomiting",Food Poisoning,Mild,79
+971,50,Female,"Fever, Cough, Fatigue",Influenza,Severe,99
+972,1,Male,"Runny Nose, Sneezing",Common Cold,Severe,99
+973,50,Female,"Runny Nose, Sneezing",Common Cold,Severe,100
+974,52,Female,"Runny Nose, Sneezing",Common Cold,Severe,89
+975,26,Female,"Headache, Blurred Vision",Migraine,Mild,94
+976,36,Male,"Runny Nose, Sneezing",Common Cold,Mild,71
+977,48,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,93
+978,84,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,79
+979,34,Female,"Runny Nose, Sneezing",Common Cold,Moderate,99
+980,48,Male,"Fever, Cough, Fatigue",Influenza,Severe,99
+981,60,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,80
+982,61,Female,"Chest Pain, Breathlessness",Heart Attack,Moderate,85
+983,35,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,93
+984,9,Male,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,74
+985,32,Male,"Chest Pain, Breathlessness",Heart Attack,Moderate,87
+986,43,Female,"Headache, Blurred Vision",Migraine,Moderate,93
+987,69,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,72
+988,60,Male,"Headache, Blurred Vision",Migraine,Severe,71
+989,6,Female,"Runny Nose, Sneezing",Common Cold,Severe,87
+990,8,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,78
+991,29,Male,"Fever, Cough, Fatigue",Influenza,Severe,93
+992,23,Male,"Chest Pain, Breathlessness",Heart Attack,Severe,81
+993,73,Male,"Abdominal Pain, Vomiting",Food Poisoning,Severe,99
+994,6,Female,"Headache, Blurred Vision",Migraine,Mild,78
+995,13,Female,"Fever, Cough, Fatigue",Influenza,Severe,74
+996,78,Female,"Headache, Blurred Vision",Migraine,Severe,70
+997,4,Female,"Headache, Blurred Vision",Migraine,Severe,95
+998,40,Female,"Headache, Blurred Vision",Migraine,Mild,95
+999,37,Female,"Abdominal Pain, Vomiting",Food Poisoning,Moderate,88
+1000,65,Female,"Abdominal Pain, Vomiting",Food Poisoning,Severe,92
